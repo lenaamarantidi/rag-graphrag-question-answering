@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+torch
+transformers
+sentence-transformers
+faiss-cpu
+rank-bm25
+PyMuPDF
+requests
+networkx
+tqdm
