@@ -69,15 +69,13 @@ The Hybrid RAG system was evaluated against the same language model without retr
 Analysis of the two unsuccessful RAG cases indicated that the relevant evidence was not included in the retrieved context, suggesting that the primary limitation occurred during retrieval rather than answer generation.
 
 The GraphRAG notebook further explores how graph structure, traversal depth, community information, evidence availability, and graph quality affect retrieval and downstream question answering.
-
 ## Repository Structure
 
 ```text
 rag-graphrag-question-answering/
 ├── README.md
-├── notebooks/
-│   ├── hybrid_rag.ipynb
-│   └── graph_rag.ipynb
+├── hybrid_rag.ipynb
+├── graph_rag.ipynb
 ├── requirements.txt
 └── .gitignore
 ```
