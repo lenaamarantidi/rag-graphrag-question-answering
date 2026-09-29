@@ -1,0 +1,22 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local environments
+.env
+.venv/
+venv/
+
+# Model and generated artifacts
+*.pt
+*.pth
+
+# Local / prepared data
+data/
+datasets/
+
+# macOS
+.DS_Store
